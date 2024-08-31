@@ -1,0 +1,35 @@
+/* Ana kapsayıcı */
+.container {
+  display: flex; /* Flexbox kullan */
+  flex-direction: column; /* Öğeleri dikey sıraya koy */
+  align-items: center; /* Yatayda ortala */
+  justify-content: center; /* Dikeyde ortala */
+  height: 100vh; /* Yüksekliği ekran yüksekliği kadar yap */
+  background-color: #f5f5f5; /* Arka plan rengini ayarla */
+}
+
+/* Ortalamak için stiller */
+#title,#hosgeldin {
+  font-size: 30px; /* Yazı boyutunu burada ayarlıyorsun */
+  color: #FFA500; /* Turuncu renk */
+  font-family: 'Arial', sans-serif; /* Yazı tipi */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Hafif gölge efekti */
+  border: 2px solid #FFA500; /* Turuncu renkte bir çerçeve */
+  padding: 10px; /* İç boşluk */
+  border-radius: 5px; /* Köşe yuvarlama */
+  background-color: #FFF5E1; /* Hafif turuncu arka plan */
+  margin: 10px; /* Öğeler arasında boşluk */
+}
+#clock
+{
+  font-size: 10em; /* Yazı boyutunu burada ayarlıyorsun */
+  color: #FFA500; /* Turuncu renk */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif/* Yazı tipi */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Hafif gölge efekti */
+  border: 2px solid #FFA500; /* Turuncu renkte bir çerçeve */
+  padding: 10px; /* İç boşluk */
+  border-radius: 5px; /* Köşe yuvarlama */
+  background-color: #FFF5E1; /* Hafif turuncu arka plan */
+  margin: 10px; /* Öğeler arasında boşluk */
+  
+}
